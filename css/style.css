@@ -1,0 +1,208 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Mansalva', cursive;
+    background-color: #fce4ec;
+}
+
+/* ------------ Container ------------ */
+.container{
+   padding: 100px;
+    width:380px;
+    margin:0 auto;
+    background-color: #fce4ec;
+}
+
+/* ------------ Header ------------ */
+.header{
+    width: 380px;
+    height:200px;
+    background-image: url('../img/1.png');
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+.header h1{
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.refresh{
+    width : 25px;
+    height: 25x;
+    position: absolute;
+    right:20px;
+    top: 13px;
+}
+.refresh i{
+    font-size: 25px;
+    color:grey;
+}
+.refresh i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(90deg);
+}
+#todays-date{
+    position: absolute;
+    bottom: 92px;
+    left: 130px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Mansalva', cursive;
+}
+
+/* ------------ Content ------------ */
+.content{
+    width:380px;
+    height: 350px;
+    max-height:350px;
+    background-color: #FFF;
+    overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding: 0;
+    margin:0;
+}
+
+.items{
+    width:380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.items i.co{
+    position: absolute;
+    
+    font-size: 20px;
+    padding-left:5px;
+    left:40px;
+    top:10px
+}
+.items i.co:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+.items p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:80px;
+    top:5px;
+    background-color: #FFF;
+    max-width:285px;
+}
+.strikeOut{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.items i.de{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    right:25px;
+    top:10px;
+}
+.items i.de:hover{
+    color: red;
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+/* ------------ Add Item ------------ */
+.add-to-do-list{
+    position: relative;
+    width: 360px;
+    height:40px;
+    background-color: #FFF;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.add-to-do-list i{
+    position: absolute;
+    left: 10px;
+    font-size: 40px;
+    color: grey;
+}
+
+.add-to-do-list i.fa-plus-square:hover{
+    color: #e91e63;
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+
+.add-to-do-list input{
+    position: absolute;
+    font-family: 'Mansalva', cursive;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+}
+.add-to-do-list input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: black;
+    font-family: 'Mansalva', cursive;
+    font-size: 20px;
+}
+.add-to-do-list input::-moz-placeholder { /* Firefox 19+ */
+    color: black;
+    font-family: 'Mansalva', cursive;
+    font-size: 20px;
+}
+.add-to-do-list input:-ms-input-placeholder { /* IE 10+ */
+    color: black;
+    font-family: 'Mansalva', cursive;
+    font-size: 20px;
+}
+.add-to-do-list input:-moz-placeholder { /* Firefox 18- */
+    color: black;
+    font-family: 'Mansalva', cursive;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
